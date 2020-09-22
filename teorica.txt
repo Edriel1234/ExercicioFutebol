@@ -1,0 +1,56 @@
+1
+a)Frontend é a parte de interação com os usuários
+ex: sites
+
+b)Backand é a parte que o usuário não ve em sua interação, é responsável pelo sistema ao todos e suas funcionalidades.
+Ex: Java, Java Script,C#
+
+c) Economizar recurcosos de um servidor, e ter uma hospedagem de códigos em lugares diferentes podemos alterar linguagens sem inteferir na funcionalidade de uma aplicação
+
+2
+{
+	“Nome” : “Victor Gabriel”,
+	“Idade” : 20,
+	“Endereço” : “Rua antonio”,
+	“Cidade” : “Araxá”,
+	“UF” : “MG”
+} 
+
+{
+	“Id” : 2,
+	“Modelo” : “siena”,
+	“Placa” : “abc 123”,
+	“Ano” : 2004
+}
+
+3
+a)API RESTful fica parada até que acontece uma requisição. É como um carro estacionado que só é ativado após a ignição com a chave. No caso do exemplo do login da PSN usando os dados do Facebook, a API do Facebook não fica processando os dados de todos os seus usuários continuamente, ela espera até que um usuário peça a permissão para se autenticar.
+
+b)Um endpoint de um web service é a URL onde seu serviço pode ser acessado por uma aplicação cliente. Uma API é um conjunto de rotinas, protocolos e ferramentas para construir aplicações.
+
+c)Especifica a localização dos documentos, objetos, ligações, referências e programas executáveis na rede Internet.
+
+d)O alvo de uma requisição HTTP é chamada de "resource", ou recurso em português, com a natureza ainda não definida; Isso pode ser um documento, uma foto ou qualquer outra coisa.
+
+e) 
+API Pública: Os formatos mais comuns de APIs são as públicas ou abertas. As APIs Públicas são as responsáveis por sites que incorporam funções de redes sociais, como curtir e compartilhar e permitem acesso direto a pequenas funcionalidades da plataforma principal. 
+API Privada: Faz com que a empresa consiga definir melhor sua estratégia de API, sabendo o que é importante disponibilizar para outros desenvolvedores e o que deve permanecer privado. Mas essa é somente uma razão estratégica, e as APIs privadas tem funções importantes dentro de negócios.
+
+4
+a) Considera cada classe deve ter ter apenas uma responsabiidade 
+
+b)Sim.Pois foi criado uma maneira de calcular ICMS dentro de uma classe.
+
+Novo código:
+ public class Produto
+    {
+
+        public int Id { get; set; }
+        public string Descricao { get; set; }
+        public decimal preco { get; set; }
+        
+    }
+
+
+
+
